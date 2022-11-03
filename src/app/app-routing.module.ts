@@ -6,10 +6,10 @@ import { HomeComponent } from './home/home.component';
 import { ProfessoresComponent } from './professores/professores.component';
 
 const routes: Routes = [
-  { path: 'devaria-angular/', component: HomeComponent },
-  { path: 'devaria-angular/professores', component: ProfessoresComponent },
-  { path: 'devaria-angular/faleConosco', component: FaleConoscoComponent },
-  { path: 'devaria-angular/devstars', component: DevstarsComponent },
+  { path: '', component: HomeComponent },
+  { path: 'professores', component: ProfessoresComponent },
+  { path: 'faleConosco', component: FaleConoscoComponent },
+  { path: 'devstars', component: DevstarsComponent },
 ];
 
 @NgModule({
